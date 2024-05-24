@@ -1,0 +1,88 @@
+.signup-a-container{
+  background-color: rgb(189, 233, 246);
+  overflow: hidden;
+}
+
+.doctor-registration-form-container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 60px;
+  background: rgb(181, 211, 234);
+  border: 1px solid #eed9d9;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(26, 176, 213, 0.1);
+}
+
+.doctor-registration-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-weight: 800;
+  text-decoration: underline;
+}
+form {
+  background-color: rgb(214, 233, 233);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  border-radius: 10px;
+}
+.input-group label{
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+  background-color: #d0d0d5;
+}
+
+input:focus{
+  background-color: rgb(198, 235, 235);
+}
+
+.btn{
+  position: relative;
+  left: 86%;
+}
+
+
+.btn button {
+  font-size: 15px;
+  height: 50px;
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(13, 198, 180);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: rgb(57, 157, 122);
+}
+
+.input-group.full-width {
+  min-height: 0;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 0px;
+  transform: scale(1);
+}
+
+.backBtnInSignup{
+  text-decoration: none;
+  color: white;
+}
