@@ -13,8 +13,21 @@ import SignUpAsPat from "./Pages/SignUpAsPat";
 
 function App() {
   return (
-    <>
-    </>
+    <div className="App">
+      <Router basename="/Health-Plus">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/legal" element={<Legal />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/register/patientlogin" element={<LoginAsPat />} />
+          <Route path="/register/patientsignup" element={<SignUpAsPat />} />
+          <Route path="/register/doctorsignup" element={<SignUpAsDoc />} />
+          <Route path="/register/doctorlogin" element={<LoginAsDoc />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
