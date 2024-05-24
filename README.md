@@ -14,6 +14,6 @@
 <br>
 <h1>Frontend Related:</h1>
 <ul>
-<li>Forst run command:- 'npm i'</li>
-<li>To run use command:- npm run start</li>
+<li>First, run command:- 'npm i'</li>
+<li>To run, use command:- npm run start</li>
 </ul>
