@@ -1,4 +1,4 @@
-# WDA
+# Frontend
 #To run:
 <br>
 npm i
