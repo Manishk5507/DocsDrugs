@@ -19,6 +19,7 @@
 <br>
 <h1>Frontend Related:</h1>
 <ul>
+<<<<<<< HEAD
 <li>Forst run command:- 'npm i'</li>
 <li>To run use command:- npm run start</li>
 </ul>
@@ -27,3 +28,8 @@
 <ul>
 <li>http://docs-drugs.s3-website.eu-north-1.amazonaws.com/Health-Plus</li>
 </ul>
+=======
+<li>First, run command:- 'npm i'</li>
+<li>To run, use command:- npm run start</li>
+</ul>
+>>>>>>> 9459e25bfe4993a066755493befdc48419871e85
